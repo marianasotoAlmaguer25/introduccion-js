@@ -29,9 +29,9 @@ const libro3 = new Libro("Actos humanos", "Han Kang ", 2014, "disponible");
 
 libro1.describirLibro();
 libro2.describirLibro();
-libro1.agregarCapitulo("Estructura de la familia Buendía");
+libro1.agregarCapitulo("un sauce de cristal, un chopo de agua...");
 libro2.agregarCapitulo("Primer acontecimiento");
-libro3.agregarCapitulo("poema I");
+libro3.agregarCapitulo("A pesar de que el sol ya está alto, las bombillas de 40 vatios siguen encendidas en el techo...");
 
 console.log(libro1.capitulos);
 console.log(libro2.capitulo);
