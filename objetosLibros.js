@@ -21,11 +21,17 @@ class Libro {
 }
 
 
-const libro1 = new Libro("Cien años de soledad", "Gabriel García Márquez", 1967, "disponible");
-const libro2 = new Libro("1984", "George Orwell", 1949, "prestado");
+const libro1 = new Libro("Piedra de sol", "Octavio paz", 1957, "disponible");
+const libro2 = new Libro("Nadie me verá llorar", "Cristina Rivera Garza", 2000, "prestado");
+const libro3 = new Libro("Actos humanos", "Han Kang ", 2014, "disponible");
+
 
 
 libro1.describirLibro();
+libro2.describirLibro();
 libro1.agregarCapitulo("Estructura de la familia Buendía");
+libro2.agregarCapitulo("Primer acontecimiento");
+libro3.agregarCapitulo("poema I");
 
 console.log(libro1.capitulos);
+console.log(libro2.capitulo);
