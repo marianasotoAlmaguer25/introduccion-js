@@ -1,0 +1,68 @@
+:root {
+    --dark: #18171F;
+    --grey: #24232C;
+    --neon: #A4FFAF;
+    --white: #E6E5EA;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container {
+    width: 400px;
+}
+
+.display-container,
+.settings-container {
+    background-color: var(--grey);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#password-display {
+    background: transparent;
+    border: none;
+    color: var(--white);
+    font-size: 24px;
+    width: 80%;
+}
+
+#generate-btn {
+    width: 100%;
+    padding: 15px;
+    background: var(--neon);
+    border: 2px solid var(--neon);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#generate-btn:hover {
+    background: transparent;
+    color: var(--neon);
+}
+
+.strength-meter {
+    background: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.bars {
+    display: flex;
+    gap: 5px;
+}
+
+.bar {
+    width: 10px;
+    height: 25px;
+    border: 2px solid var(--white);
+}
