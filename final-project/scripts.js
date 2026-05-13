@@ -7,7 +7,7 @@ let recipes = [
         ingredientes: ["harina", "tomate", "queso mozzarella"],
         pasos: ["Mezclar ingredientes", "Hornear"],
         categoria: "Main Dish",
-        imagen: "https://images.unsplash.com/photo-1574071318508-1cdbad80ad38?q=80&w=500"
+        imagen: "pizza.jpg"
     }
 ];
 
